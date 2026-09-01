@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root{
+  --yellow: #FFCF56;
+  --red:    #E4572E;
+  --green:  #29335C;
+  --dark-green:  #17182E;
+  --light-green: #21FF25;
+}
+
+body {
+  margin: 0;
+  font-family: "Patrick Hand", cursive;
+  font-weight: 400;
+  font-size: 28px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  background: linear-gradient(214deg, var(--green) 0%, var(--yellow) 40%, var(--yellow) 60%, var(--green) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

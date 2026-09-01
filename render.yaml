@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: draw
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm run build && npm install --prefix server
+    startCommand: node server/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SESSION_SECRET
+        generateValue: true
+      - key: NODE_VERSION
+        value: 20.11.1
+    healthCheckPath: /
+    autoDeploy: true

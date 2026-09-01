@@ -1,0 +1,38 @@
+.room {
+  padding: 10px;
+  padding-bottom: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  min-height: 60px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.host {
+  font-size: 40px;
+  background-color: #00BAFF;
+  transition: opacity 2s, border 2s;
+  margin-top: 30px;
+  border-radius: 10px 10px 0 0;
+}
+
+.player {
+  display: flex;
+  align-items: normal;
+  gap: 15px;
+  padding: 0 7px;
+}
+
+.delete-icon {
+  font-size: 28px;
+  z-index: 1;
+}
+
+.copy {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  cursor: pointer;
+  border-bottom: solid;
+  font-size: 36px;
+}

@@ -1,0 +1,28 @@
+.home {
+  padding: 30px
+}
+
+.home-button {
+  margin: 10px;
+}
+
+.home-input {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.home-input div {
+  flex: 1;
+}
+
+.input-code {
+  width: 75%;
+  margin-bottom: 15px;
+  font-family: inherit;
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  flex: 4;
+}

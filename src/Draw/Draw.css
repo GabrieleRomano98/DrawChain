@@ -1,0 +1,67 @@
+.draw-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.draw-word {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.draw-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.color-swatch {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.color-swatch.selected {
+  outline: 3px solid "#ff8472";
+}
+
+.clear-button {
+  padding: 6px 14px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--yellow);
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  background: var(--yellow);
+  font-size: 22px;
+}
+
+.canvas-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: white;
+  overflow: hidden;
+  border-style: solid;
+  border-width: 1px 0;
+}
+
+.canvas-wrapper canvas {
+  touch-action: none;
+  display: block;
+}

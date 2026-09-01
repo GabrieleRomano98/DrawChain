@@ -1,0 +1,58 @@
+.summary-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  flex: 1;
+  padding: 0 20px 20px;
+}
+
+.summary-player {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.summary-separator {
+  height: 2px;
+  background: black;
+  opacity: 0.15;
+  margin: 20px 0;
+}
+
+.summary-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.summary-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+}
+
+.summary-by {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.summary-word {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.summary-image {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  border: 1px solid black;
+  background: white;
+}
